@@ -1,0 +1,25 @@
+{
+    "ProjectName": "litestar_app",
+    "ProgrammingLanguages": [
+        "Python"
+    ],
+    "ScanModules": [
+        "StaticCodeAnalysis",
+        "PatternMatching",
+        "Components",
+        "Configuration",
+        "SoftwareCompositionAnalysis"
+    ],
+    "SkipGitIgnoreFiles": true,
+    "PmTaintSettings": {
+        "UsePublicAnalysisMethod": true
+    },
+    "PythonSettings": {
+        "UsePublicAnalysisMethod": false,
+        "DownloadDependencies": true
+    },
+    "ScaSettings": {},
+    "BlackBoxSettings": {
+        "Site": "http://localhost"
+    }
+}
